@@ -1,0 +1,81 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  background-color:  #d8d7d7;
+ 
+}
+
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #334567;
+  color: white;
+  padding: 3rem 2rem;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  display:flex;
+  justify-content: space-around;
+  
+
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  width:20rem;
+  transition: box-shadow 0.3s ease ;
+  background-color: rgb(189, 186, 186);
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.Card:hover {
+  box-shadow: 0 0.1rem 0.4rem rgba(0,0,0, 0.3);
+}
+
+.CardImg {
+  height: 20rem;
+  padding: 0px;
+  border-radius: 5px 5px 0 0 ;
+}
+.Padding {
+  padding-left: 0.5rem;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:70%;
+  padding: 1rem;
+}
+
+.Btn {
+  margin: 0.5rem;
+}
+
+.Alert {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem;
+}
