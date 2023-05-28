@@ -8,6 +8,6 @@ const Card = ({img, cardTitle, description }) => {
         <p className='Padding'>{description}</p>
     </div>
   )
-}
+};
 
 export default Card

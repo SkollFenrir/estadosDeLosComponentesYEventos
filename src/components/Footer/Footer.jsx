@@ -8,6 +8,6 @@ const Footer = ({title, description}) => {
         <Badge>{description}</Badge>
     </div>
   )
-}
+};
 
 export default Footer

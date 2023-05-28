@@ -34,6 +34,6 @@ const Login = ({onSubmitForm, title}) => {
       </form>
     </div>
   )
-}
+};
 
 export default Login
